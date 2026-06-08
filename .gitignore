@@ -1,0 +1,55 @@
+# Environment variables (your .env inside backend folder)
+backend/.env
+.env
+*.env
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# Flask / Werkzeug
+instance/
+.webassets-cache
+.env.local
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Render / deployment (optional)
+*.pid
+.env
+backend/.env
